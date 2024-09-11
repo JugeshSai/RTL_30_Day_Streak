@@ -1,5 +1,4 @@
 Always_block 1:
-
 module top_module(
     input a, 
     input b,
@@ -9,14 +8,11 @@ module top_module(
     assign out_assign=a&b;
     always @(*)
         out_alwaysblock=a&b;
-
 endmodule
 
 
 
 Always_block 2:
-
-
 module top_module(
     input clk,
     input a,
