@@ -63,3 +63,29 @@ module top_module (
         q=d;
 
 endmodule
+
+D latch:
+module top_module (
+    input d, 
+    input ena,
+    output q);
+    always@(*)begin
+        if(ena)
+            q<=d;
+    end
+endmodule
+
+D FF
+module top_module (
+    input clk,
+    input d, 
+    input ar,   // asynchronous reset
+    output q);
+    always@(posedge clk or posedge ar)
+        if(ar)
+            q=0;
+         else
+             q=d;
+    
+
+endmodule
