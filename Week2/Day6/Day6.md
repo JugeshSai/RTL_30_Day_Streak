@@ -17,5 +17,9 @@ D FF 8p:
 D ff8ar:
 ![image](https://github.com/user-attachments/assets/d7ab63d7-10b4-4893-b6a1-2915b21bf315)
 
+D latch:
+![image](https://github.com/user-attachments/assets/2a56406d-69d1-4874-b7a3-d6ed028a2f6b)
 
+D FF:
+![image](https://github.com/user-attachments/assets/3add0286-66c1-46f1-a1f2-e162a9720d45)
 
